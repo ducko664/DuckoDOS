@@ -1061,7 +1061,7 @@ logo:
     db "     / /_/ / /_/ / /__/ ,< / /_/ / /_/ / /_/ /___/ / ",13,10
     db "    /_____/\__,_/\___/_/|_|\____/_____/\____//____/  ",13,10
     db 13,10
-    db "       The Quackiest DOS v0.1 - 256KB",13,10
+    db "       The Quackiest DOS v4.7 - 256KB",13,10
     db "                   Quackin' since 2025!",13,10
     db 13,10
     db "    Type 'help' for commands",13,10
@@ -1069,7 +1069,7 @@ logo:
 
 prompt db "DUCK> ",0
 nl db 13,10,0
-unknown db "Quack? Try 'help'",13,10,0
+unknown db "Quackk? Try the 'help' command.",13,10,0
 
 help_msg:
     db "=== Commands ===",13,10
@@ -1078,7 +1078,7 @@ help_msg:
     db "  cls            - Clear screen",13,10
     db "  echo TEXT      - Echo text",13,10
     db "  snake          - Snake game",13,10
-    db "  quack          - Quack!",13,10
+    db "  quack          - Quack! + Beep!",13,10
     db "  duck           - Duck animation",13,10
     db "  beep           - Beep sound",13,10
     db "  time           - Show time",13,10
@@ -1087,17 +1087,17 @@ help_msg:
     db "  cat FILENAME   - View file",13,10
     db "  dir            - List files",13,10
     db "  rm FILENAME    - Delete file",13,10
-    db "  ducksay TEXT    - Duck says...",13,10,0
+    db "  ducksay TEXT    - You have power to make the duck say what you want!",13,10,0
 
 fetch_msg:
     db "     __               user@duckodos",13,10
     db " __(o )>    -----------------------",13,10
-    db " \ <_. )    OS: DuckoDOS v0.1",13,10
+    db " \ <_. )    OS: DuckoDOS v4.7",13,10
     db "  `---'     Kernel: x86 Real Mode",13,10
-    db "            Shell: DuckoSH",13,10
-    db "            Resolution: 80x25",13,10
-    db "            Memory: 640KB",13,10
-    db "            Disk: 256KB",13,10
+    db "            Shell: Only boot.asm!",13,10
+    db "            Resolution: idk go check",13,10
+    db "            Memory: idk go check",13,10
+    db "            Disk: idk go check",13,10
     db "            Files: 32 max, ~480 chars",13,10
     db "            Theme: Matrix Green",13,10
     db 13,10,0
